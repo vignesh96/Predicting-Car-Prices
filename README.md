@@ -1,5 +1,9 @@
 # Predicting Car Prices
-Data Set Information:
+
+## Introduction
+In this project, we'll create a ML model to predict a car's market price using its attributes. The data set we will be working with contains information on various cars. For each car we have information about the technical aspects of the vehicle such as the motor's displacement, the weight of the car, the miles per gallon, how fast the car accelerates, and more. We will determin the best columns to predict the car prices based on the relevant attributes and tuning of the hyperparameter.
+
+## Data Set Information:
 
 This data set consists of three types of entities: (a) the specification of an auto in terms of various characteristics, (b) its assigned insurance risk rating, (c) its normalized losses in use as compared to other cars. The second rating corresponds to the degree to which the auto is more risky than its price indicates. Cars are initially assigned a risk factor symbol associated with its price. Then, if it is more risky (or less), this symbol is adjusted by moving it up (or down) the scale. Actuarians call this process "symboling". A value of +3 indicates that the auto is risky, -3 that it is probably pretty safe.
 
@@ -8,7 +12,7 @@ The third factor is the relative average loss payment per insured vehicle year. 
 Note: Several of the attributes in the database could be used as a "class" attribute.
 
 
-Attribute Information:
+## Attribute Information:
 
 Attribute: Attribute Range
 
